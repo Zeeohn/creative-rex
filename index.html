@@ -1,0 +1,856 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/png" href="favicon.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta
+      name="keywords"
+      content="shoes, bags, lunch boxes, flowers, decorators, hand crafted shoes, hand crafted bags, hand craft"
+    />
+    <meta name="author" content="Success Zion, z-codes" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Gidugu&family=Inter:wght@400;500;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
+    />
+    <title>Creative Rex || Home</title>
+  </head>
+
+  <body
+    class="max-w-[2000px] mx-auto text-neutral-900 dark:text-neutral-200 bg-neutral-200 dark:bg-neutral-800"
+  >
+    <nav
+      class="sticky top-0 mx-0 w-full -py-1 px-7 md:px-14 shadow-lg ring-1 z-50 ring-neutral-200 ring-opacity-5 bg-white dark:bg-neutral-800"
+    >
+      <div class="-pt-2 flex items-center justify-between">
+        <div class="hidden dark:flex">
+          <a href="#"
+            ><img
+              src="./assets/shoe-label-light.png"
+              alt="Creative Rex Logo"
+              width="200"
+              class="w-36 md:w-48 lg:w-64"
+          /></a>
+        </div>
+        <div class="dark:hidden">
+          <a href="#"
+            ><img
+              src="./assets/shoe-label-dark.png"
+              alt="Creative Rex Logo"
+              width="200"
+              class="w-36 md:w-48 lg:w-64"
+          /></a>
+        </div>
+        <div
+          class="hidden left-0 font-gidugu text-4xl md:flex gap-10 space-x-6"
+        >
+          <a
+            href="#hero"
+            class="hover:text-logo relative after:absolute after:bg-logo after:bottom-0 after:left-0 after:h-[2px] after:w-full after:origin-bottom-right after:scale-x-0 hover:after:origin-bottom-left hover:after:scale-x-100 after:transition-transform after:ease-in-out after:duration-300"
+            >Home</a
+          >
+          <a
+            href="#about"
+            class="hover:text-logo relative after:absolute after:bg-logo after:bottom-0 after:left-0 after:h-[2px] after:w-full after:origin-bottom-right after:scale-x-0 hover:after:origin-bottom-left hover:after:scale-x-100 after:transition-transform after:ease-in-out after:duration-300"
+            >About</a
+          >
+          <a
+            href="#services"
+            class="hover:text-logo relative after:absolute after:bg-logo after:bottom-0 after:left-0 after:h-[2px] after:w-full after:origin-bottom-right after:scale-x-0 hover:after:origin-bottom-left hover:after:scale-x-100 after:transition-transform after:ease-in-out after:duration-300"
+            >Services</a
+          >
+          <a
+            href="#contact"
+            class="hover:text-logo relative after:absolute after:bg-logo after:bottom-0 after:left-0 after:h-[2px] after:w-full after:origin-bottom-right after:scale-x-0 hover:after:origin-bottom-left hover:after:scale-x-100 after:transition-transform after:ease-in-out after:duration-300"
+            >Contact</a
+          >
+        </div>
+
+        <button
+          id="menu-btn"
+          class="block hamburger md:hidden focus:outline-none"
+        >
+          <span class="hamburger-top bg-black dark:bg-white"></span>
+          <span class="hamburger-middle bg-black dark:bg-white"></span>
+          <span class="hamburger-bottom bg-black dark:bg-white"></span>
+        </button>
+      </div>
+
+      <div class="md:hidden">
+        <div
+          id="menu"
+          class="absolute flex-col items-center hidden self-end pt-12 pb-4 pl-3 -mt-6 right-10 space-y-6 bg-neutral-700 dark:bg-white sm:w-32 sm:self-end drop-shadow-2xl font-gidugu w-32 text-white dark:text-neutral-900 text-xl z-50 font-normal outline-none"
+        >
+          <a
+            href="#hero"
+            class="hover:text-logo relative after:absolute after:bg-logo after:bottom-0 after:left-0 after:h-[2px] after:w-full after:origin-bottom-right after:scale-x-0 hover:after:origin-bottom-left hover:after:scale-x-100 after:transition-transform after:ease-in-out after:duration-300"
+            >Home</a
+          >
+          <a
+            href="#about"
+            class="hover:text-logo relative after:absolute after:bg-logo after:bottom-0 after:left-0 after:h-[2px] after:w-full after:origin-bottom-right after:scale-x-0 hover:after:origin-bottom-left hover:after:scale-x-100 after:transition-transform after:ease-in-out after:duration-300"
+            >About</a
+          >
+          <a
+            href="#services"
+            class="hover:text-logo relative after:absolute after:bg-logo after:bottom-0 after:left-0 after:h-[2px] after:w-full after:origin-bottom-right after:scale-x-0 hover:after:origin-bottom-left hover:after:scale-x-100 after:transition-transform after:ease-in-out after:duration-300"
+            >Services</a
+          >
+          <a
+            href="#contact"
+            class="hover:text-logo relative after:absolute after:bg-logo after:bottom-0 after:left-0 after:h-[2px] after:w-full after:origin-bottom-right after:scale-x-0 hover:after:origin-bottom-left hover:after:scale-x-100 after:transition-transform after:ease-in-out after:duration-300"
+            >Contact</a
+          >
+        </div>
+      </div>
+    </nav>
+
+    <section
+      id="hero"
+      class="grid grid-flow-col grid-rows-2 sm:grid-rows-1 sm:grid-cols-2 gap-4 shadow-lg ring-1 ring-neutral-200 ring-opacity-5"
+    >
+      <div class="flex items-center justify-center">
+        <main class="max-w-screen-xl px-4 lg:px-16">
+          <div class="text-left">
+            <h1
+              class="font-segoe leading-10 sm:text-5xl sm:leading-none md:text-6xl font-semibold text-4xl bg-gradient-to-r bg-clip-text text-transparent from-indigo-500 via-purple-500 to-indigo-500 animate-text"
+            >
+              An Emporium of
+              <span class="font-extrabold">Creativity!</span>
+            </h1>
+            <p
+              class="mt-3 text-base sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0"
+            >
+              Experience the creativity of the human mind in our graphics
+              designs and beautifully hand-crafted decorators, bags, slipper,
+              shoes, and more...👇
+            </p>
+            <div class="mt-5 sm:mt-8 justify-start">
+              <div class="inline-flex shadow">
+                <a
+                  href="#services"
+                  class="w-full flex items-center justify-center px-5 py-0.5 border border-transparent text-base leading-6 font-medium text-neutral-900 bg-logo focus:outline-none md:py-1 md:text-lg md:px-8 transition ease-in-out duration-300 hover:text-neutral-200 group"
+                  >Explore
+                  <span
+                    class="inline-flex translate-x-0 group-hover:translate-x-1 transition-transform ease-in-out duration-300 text-neutral-900 group-hover:text-neutral-100 text-2xl pl-2"
+                    >→</span
+                  ></a
+                >
+              </div>
+              <div class="mt-3 ml-3 sm:mt-0 sm:ml-6 inline-flex">
+                <a
+                  href="#contact"
+                  class="w-full flex items-center justify-center px-5 py-1.5 border border-transparent text-base leading-6 font-medium dark:text-neutral-900 dark:bg-white md:py-1.5 md:text-lg md:px-8 hover:bg-neutral-900 hover:text-neutral-200 dark:hover:text-neutral-200 md:hover:border-1 hover:border-1 hover:border-solid dark:hover:border-white border-neutral-900"
+                  >Learn More</a
+                >
+              </div>
+            </div>
+          </div>
+        </main>
+      </div>
+      <div
+        class="w-full object-cover h-72 lg:w-full md:h-full bg-cover bg-center"
+      >
+        <img
+          src="./assets/leg-shoe6a.jpg"
+          alt="Handmade slippers"
+          loading="lazy"
+        />
+      </div>
+    </section>
+
+    <section id="about" class="mt-14">
+      <div class="hidden md:flex justify-center">
+        <h1
+          class="font-gidugu text-7xl font-normal px-5 overflow-hidden text-center dark:before:bg-neutral-200 dark:after:bg-neutral-200 before:bg-neutral-800 after:bg-neutral-800 before:inline-block after:inline-block before:relative after:relative before:h-1 after:h-1 before:align-middle after:align-middle before:w-96 before:rounded-md after:rounded-md after:w-96 before:right-2 before:-ml-[50%] after:left-2 after:-mr-[50%]"
+        >
+          About Us
+        </h1>
+      </div>
+      <div
+        class="max-w-screen-xl px-4 lg:pl-16 lg:pr-8 flex flex-col md:flex-row md:pt-12 gap-5 justify-center text-center"
+      >
+        <div
+          class="font-segoe text-xl md:text-[2rem] font-medium md:text-left md:leading-none"
+        >
+          Do you know that the human mind is an embodiment of creativity and
+          beauty?
+        </div>
+        <div class="font-segoe text-base md:text-lg font-medium md:text-left">
+          At Creative Rex we harness the beauty and depth of the mind to produce
+          excellence at the highest level to bring out your God-given beauty.
+          <p>
+            <em
+              >Creative Rex Emporium is all about providing to you Heaven's
+              Touch...</em
+            >
+          </p>
+        </div>
+      </div>
+      <div class="flex my-8 justify-center items-center drop-shadow-md">
+        <a
+          href="#contact"
+          class="flex items-center justify-center px-6 py-1 border border-transparent text-base leading-6 font-medium text-neutral-900 bg-logo focus:outline-none md:py-2 md:text-lg md:px-10 transition ease-in-out duration-300 hover:text-neutral-200 group"
+          >Learn More
+          <span
+            class="inline-flex translate-x-0 group-hover:translate-x-1 transition-transform ease-in-out duration-300 text-neutral-900 group-hover:text-neutral-100 text-2xl pl-2"
+            >→</span
+          ></a
+        >
+      </div>
+
+      <!-- Alternative Image gallery -->
+      <!-- <ul id="gallery">
+        <li>
+          <figure tabindex="0">
+            <img src="./assets/bag4.jpeg" alt="Creative Rex bag 4" />
+          </figure>
+        </li>
+        <li>
+          <figure tabindex="0">
+            <img src="./assets/shoe1.jpeg" alt="Creative Rex shoe 1" />
+          </figure>
+        </li>
+        <li>
+          <figure tabindex="0">
+            <img src="./assets/flower1.jpeg" alt="Creative Rex Flower" />
+          </figure>
+        </li>
+      </ul> -->
+
+      <!-- gallery style used -->
+      <div id="gallery">
+        <div class="swiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img src="./assets/shoe1.jpeg" alt="Creative Rex Shoe 1" />
+            </div>
+            <div class="swiper-slide">
+              <img src="./assets/bag1.jpeg" alt="Creative Rex Bag 1" />
+            </div>
+            <div class="swiper-slide">
+              <img
+                src="./assets/leg-shoe1.jpeg"
+                alt="Creative Rex Model-Shoe 1"
+              />
+            </div>
+            <div class="swiper-slide">
+              <img src="./assets/flower1.jpeg" alt="Creative Rex Flower" />
+            </div>
+            <div class="swiper-slide">
+              <img
+                src="./assets/decorator1.jpeg"
+                alt="Creative Rex Decorator 1"
+              />
+            </div>
+            <div class="swiper-slide">
+              <img src="./assets/bag2.jpeg" alt="Creative Rex Bag 2" />
+            </div>
+            <div class="swiper-slide">
+              <img src="./assets/shoe17.jpeg" alt="Creative Rex Shoe 2" />
+            </div>
+            <div class="swiper-slide">
+              <img
+                src="./assets/leg-shoe2.jpeg"
+                alt="Creative Rex Model-Shoe 2"
+              />
+            </div>
+            <div class="swiper-slide">
+              <img
+                src="./assets/decorator2.jpeg"
+                alt="Creative Rex Decorator 2"
+              />
+            </div>
+            <div class="swiper-slide">
+              <img src="./assets/shoe3.jpeg" alt="Creative Rex Shoe 3" />
+            </div>
+            <div class="swiper-slide">
+              <img
+                src="./assets/leg-shoe4.jpeg"
+                alt="Creative Rex Model-Shoe 4"
+              />
+            </div>
+            <div class="swiper-slide">
+              <img src="./assets/shoe14.jpeg" alt="Creative Rex Shoe 4" />
+            </div>
+            <div class="swiper-slide">
+              <img src="./assets/bag4.jpeg" alt="Creative Rex Bag 3" />
+            </div>
+            <div class="swiper-slide">
+              <img src="./assets/shoe9.jpeg" alt="Creative Rex Shoe 5" />
+            </div>
+            <div class="swiper-slide">
+              <img src="./assets/shoe15.jpeg" alt="Creative Rex Shoe 6" />
+            </div>
+            <div class="swiper-slide">
+              <img src="./assets/shoe16.jpeg" alt="Creative Rex Shoe 7" />
+            </div>
+            <div class="swiper-slide">
+              <img src="./assets/shoe10.jpeg" alt="Creative Rex Shoe 8" />
+            </div>
+            <div class="swiper-slide">
+              <img src="./assets/shoe5.jpeg" alt="Creative Rex Shoe 9" />
+            </div>
+          </div>
+          <!-- Add Pagination -->
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+    </section>
+
+    <section
+      id="services"
+      class="mt-14 relative max-w-screen-xl md:container md:mx-auto mx-4"
+    >
+      <div class="flex items-center justify-center">
+        <h1
+          class="relative after:absolute dark:after:bg-white inline-flex after:left-0 after:right-0 after:bg-black after:bottom-0 after:rounded-md after:h-1 after:w-full text-5xl md:text-7xl font-normal px-5 md:block font-gidugu text-center overflow-hidden md:dark:before:bg-neutral-200 md:dark:after:bg-neutral-200 md:before:bg-neutral-800 md:after:bg-neutral-800 md:before:inline-block md:after:inline-block md:before:relative md:after:relative md:before:h-1 md:after:h-1 md:before:align-middle md:after:align-middle md:before:w-96 md:before:rounded-md md:after:rounded-md md:after:w-96 md:before:right-2 md:before:-ml-[50%] md:after:left-2 md:after:-mr-[50%]"
+        >
+          Our Services
+        </h1>
+      </div>
+      <div class="pt-4 flex items-center justify-center">
+        <p class="text-center font-segoe text-base md:text-lg font-medium">
+          Our customers are never dissatisfied or disappointed with the services
+          and products we offer. Our products/services include; bespoke couple
+          footwears design, male and female accessories, consultation, graphics
+          design and a lot more! Contact us to know more.
+        </p>
+      </div>
+
+      <div
+        class="md:container md:mx-auto pt-10 flex gap-4 md:gap-10 flex-col md:flex-row flex-wrap items-start justify-center md:justify-between"
+      >
+        <div
+          class="grid gap-4 justify-items-center text-center md:flex-1 bg-slate-300 p-6 rounded-xl dark:bg-neutral-800 shadow-md shadow-neutral-400 hover:shadow-none"
+        >
+          <div class="rounded-full border-8 border-logo p-4">
+            <img
+              src="./assets/men-shoe-icon.svg"
+              alt="Male shoe icon"
+              height="50"
+              width="50"
+            />
+          </div>
+          <h4 class="text-xl font-segoe font-bold">Bespoke Male Footwears</h4>
+          <p>
+            Quality male shoes designed to your specifications, including
+            sneakers & boots.
+          </p>
+        </div>
+
+        <div
+          class="grid gap-4 justify-items-center text-center md:flex-1 bg-slate-300 p-6 rounded-xl dark:bg-neutral-800 shadow-md shadow-neutral-400 hover:shadow-none"
+        >
+          <div class="rounded-full border-8 border-logo p-4">
+            <img
+              src="./assets/bags-icon.png"
+              alt="Bags & Purses icon"
+              height="50"
+              width="50"
+            />
+          </div>
+          <h4 class="text-xl font-segoe font-bold">Bespoke Purses and Bags</h4>
+          <p>
+            Beautifully crafted hand-bags and purses for different occasions.
+          </p>
+        </div>
+
+        <div
+          class="grid gap-4 justify-items-center text-center md:flex-1 bg-slate-300 p-6 rounded-xl dark:bg-neutral-800 shadow-md shadow-neutral-400 hover:shadow-none"
+        >
+          <div class="rounded-full border-8 border-logo p-4">
+            <img
+              src="./assets/necktie-icon.png"
+              alt="Shirt & Tie icon"
+              height="50"
+              width="50"
+            />
+          </div>
+          <h4 class="text-xl font-segoe font-bold">Tie and Suit Accessories</h4>
+          <p>
+            Simple, elegant or colorful ties and accessories that matches your
+            suits.
+          </p>
+        </div>
+      </div>
+
+      <div
+        class="md:container md:mx-auto pt-4 md:pt-9 flex gap-4 md:gap-10 flex-col md:flex-row flex-wrap items-start justify-center md:justify-between"
+      >
+        <div
+          class="grid gap-4 justify-items-center text-center md:flex-1 bg-slate-300 p-6 rounded-xl dark:bg-neutral-800 shadow-md shadow-neutral-400 hover:shadow-none"
+        >
+          <div class="rounded-full border-8 border-logo p-4">
+            <img
+              src="./assets/heels-icon.svg"
+              alt="female heels icon"
+              height="50"
+              width="50"
+            />
+          </div>
+          <h4 class="text-xl font-segoe font-bold">Bespoke Women Footwears</h4>
+          <p>
+            Beautiful and attractive fluffy footwears, heels, children school
+            shoes and so on.
+          </p>
+        </div>
+
+        <div
+          class="grid gap-4 justify-items-center text-center md:flex-1 bg-slate-300 p-6 rounded-xl dark:bg-neutral-800 shadow-md shadow-neutral-400 hover:shadow-none"
+        >
+          <div class="rounded-full border-8 border-logo p-4">
+            <img
+              src="./assets/socks-icon.png"
+              alt="Socks icon"
+              height="50"
+              width="50"
+            />
+          </div>
+          <h4 class="text-xl font-segoe font-bold">
+            Casual and Corporate Socks
+          </h4>
+          <p>
+            Quality & affordable Socks for different seasons, occasions and
+            places.
+          </p>
+        </div>
+
+        <div
+          class="grid gap-4 justify-items-center text-center md:flex-1 bg-slate-300 p-6 rounded-xl dark:bg-neutral-800 shadow-md shadow-neutral-400 hover:shadow-none"
+        >
+          <div class="rounded-full border-8 border-logo p-4">
+            <img
+              src="./assets/backpack-icon.png"
+              alt="Backpack icon"
+              height="50"
+              width="50"
+            />
+          </div>
+          <h4 class="text-xl font-segoe font-bold">School Bag & Lunch Boxes</h4>
+          <p>
+            Strong school bags and fancy lunch boxes for the school children.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section
+      id="contact"
+      class="mt-14 mb-10 relative max-w-screen-xl md:container md:mx-auto mx-4"
+    >
+      <div class="hidden md:flex justify-center md:mb-5">
+        <h1
+          class="font-gidugu text-7xl font-normal px-5 overflow-hidden text-center dark:before:bg-neutral-200 dark:after:bg-neutral-200 before:bg-neutral-800 after:bg-neutral-800 before:inline-block after:inline-block before:relative after:relative before:h-1 after:h-1 before:align-middle after:align-middle before:w-96 before:rounded-md after:rounded-md after:w-96 before:right-2 before:-ml-[50%] after:left-2 after:-mr-[50%]"
+        >
+          Contact Us
+        </h1>
+      </div>
+      <div class="flex flex-col md:flex-row md:mt-10">
+        <div
+          class="bg-logo text-center md:text-left flex-1 text-white px-4 pb-4"
+        >
+          <h3 class="font-bold font-open text-2xl md:text-3xl py-3">
+            Contact Information
+          </h3>
+          <p class="font-segoe">
+            Fill up the form and we will get back to you within 24 hours, or use
+            any of our social media handles to get instant response!
+          </p>
+          <div
+            class="pt-10 gap-3 flex justify-center items-center md:inline-flex md:flex-row"
+          >
+            <img
+              src="./assets/call-icon.png"
+              alt="Call Icon"
+              width="30"
+              height="30"
+            />
+            <p class="font-segoe font-bold font-lg">
+              <a href="tel:+2347062783910">+234 706 278 3910</a>
+            </p>
+          </div>
+
+          <div
+            class="pt-10 gap-3 flex justify-center items-center md:justify-start md:flex-row"
+          >
+            <img
+              src="./assets/mail-icon.png"
+              alt="Email Icon"
+              width="30"
+              height="30"
+            />
+            <a
+              href="mailto:creativerexemporium@gmail.com"
+              class="font-segoe font-bold font-lg"
+              >creativerexemporium@gmail.com</a
+            >
+          </div>
+
+          <div
+            class="pt-10 gap-3 flex justify-center items-center md:justify-start md:flex-row"
+          >
+            <img
+              src="./assets/location-icon.png"
+              alt="Location Icon"
+              width="30"
+              height="30"
+            />
+            <p class="font-segoe font-bold font-lg">
+              Royal Shekinah Hotel, Along Ajase-Ipo Road, Ilorin, Kwara State,
+              Nigeria.
+            </p>
+          </div>
+
+          <div
+            class="mt-12 mb-6 -mx-4 py-0.5 px-4 gap-5 grid grid-rows-1 grid-cols-3 bg-white place-items-center"
+          >
+            <a
+              href="https://wa.me/+2348094226997"
+              target="_blank"
+              rel="noopener noreferrer"
+              ><img
+                src="./assets/whatsapp-icon.svg"
+                alt="Whatsapp Icon"
+                width="30"
+                height="30"
+            /></a>
+            <a
+              href="https://facebook.com/CreativeRexEmporium/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                src="./assets/facebook-icon.png"
+                alt="Facebook Icon"
+                width="30"
+                height="30"
+              />
+            </a>
+            <a
+              href="https://www.instagram.com/creativerexemporium_/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                src="./assets/instagram-icon.png"
+                alt="instagram Icon"
+                width="30"
+                height="30"
+              />
+            </a>
+          </div>
+        </div>
+
+        <div class="bg-white flex-1">
+          <h3
+            class="font-open font-bold text-3xl md:text-4xl text-center py-4 text-black"
+          >
+            Get in Touch
+          </h3>
+          <form
+            action=""
+            name="contact"
+            method="post"
+            netlify-honeypot="bot-field"
+            data-netlify="true"
+            class="mt-3 md:mt-5 px-5"
+          >
+            <div
+              class="grid grid-rows-4 md:grid-rows-2 grid-cols-1 md:grid-cols-2"
+            >
+              <div
+                class="relative border-b-2 border-solid border-black my-7 mx-4"
+              >
+                <input
+                  type="text"
+                  id="firstName"
+                  class="w-full px-1 h-10 border-none focus:ring-0 focus:border-none font-segoe text-base text-black bg-none peer"
+                  required
+                />
+                <label
+                  for="firstName"
+                  class="absolute top-[50%] left-1 text-gray-800 -translate-y-2/4 text-base pointer-events-none transition-[0.5s] peer-focus:-top-1 peer-focus:text-gray-400 peer-valid:-top-1 peer-valid:text-gray-400"
+                  >First Name</label
+                >
+              </div>
+
+              <div
+                class="relative border-b-2 border-solid border-black my-7 mx-4"
+              >
+                <input
+                  type="text"
+                  id="lastName"
+                  class="form-input w-full px-1 h-10 border-none focus:ring-0 focus:border-none font-segoe text-base text-black bg-none peer"
+                  required
+                />
+                <label
+                  for="lastName"
+                  class="absolute top-[50%] left-1 text-gray-800 -translate-y-2/4 text-base pointer-events-none transition-[0.5s] peer-focus:-top-1 peer-focus:text-gray-400 peer-valid:-top-1 peer-valid:text-gray-400"
+                  >Last Name</label
+                >
+              </div>
+
+              <div
+                class="relative border-b-2 border-solid border-black my-7 mx-4"
+              >
+                <input
+                  type="email"
+                  name="email"
+                  id="email"
+                  class="form-input w-full px-1 h-10 border-none focus:ring-0 focus:border-none font-segoe text-base text-black bg-none peer"
+                  required
+                />
+                <label
+                  for="email"
+                  class="absolute top-[50%] left-1 text-gray-800 -translate-y-2/4 text-base pointer-events-none transition-[0.5s] peer-focus:-top-1 peer-focus:text-gray-400 peer-valid:-top-1 peer-valid:text-gray-400"
+                  >Email</label
+                >
+              </div>
+              <div
+                class="relative border-b-2 border-solid border-black my-7 mx-4"
+              >
+                <input
+                  type="tel"
+                  name="phone"
+                  id="phone"
+                  class="form-input w-full px-1 h-10 border-none focus:ring-0 focus:border-none font-segoe text-base text-black bg-none peer"
+                  required
+                />
+                <label
+                  for="phone"
+                  class="absolute top-[50%] left-1 text-gray-800 -translate-y-2/4 text-base pointer-events-none transition-[0.5s] peer-focus:-top-1 peer-focus:text-gray-400 peer-valid:-top-1 peer-valid:text-gray-400"
+                  >Phone</label
+                >
+              </div>
+            </div>
+            <div
+              class="md:flex md:justify-center md:items-center relative border-b-2 border-solid border-black my-7 mx-4"
+            >
+              <textarea
+                name="content"
+                id="content"
+                cols="20"
+                rows="5"
+                class="form-input resize-none w-full px-1 h-10 border-none focus:ring-0 focus:border-none font-segoe text-base text-black bg-none peer"
+                required
+              ></textarea>
+              <label
+                for="content"
+                class="absolute top-[50%] left-1 text-gray-800 -translate-y-2/4 text-base pointer-events-none transition-[0.5s] peer-focus:-top-1 peer-focus:text-gray-400 peer-valid:-top-1 peer-valid:text-gray-400"
+                >Message</label
+              >
+            </div>
+            <div class="hidden">
+              <input type="text" /><label
+                ><strong>Don't fill </strong>this input if you are a
+                human</label
+              >
+            </div>
+            <div class="flex justify-center items-center mb-5">
+              <input
+                type="submit"
+                value="Submit"
+                class="flex items-center justify-center px-8 py-1.5 border border-transparent cursor-pointer text-base leading-6 font-medium md:py-1.5 md:text-lg md:px-10 bg-neutral-900 text-neutral-200 border-neutral-900 hover:translate-x-3 transition-transform ease-in-out duration-500 shadow-md shadow-neutral-700 hover:shadow-none"
+              />
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <footer class="dark:bg-slate-800 bg-slate-700 mt-8">
+      <div
+        class="grid grid-cols-1 place-items-start pl-6 md:pl-0 md:place-items-start gap-3 md:grid-cols-4 md:gap-4 pt-6 font-open text-white"
+      >
+        <div class="">
+          <img
+            src="./assets/shoe-label-light.png"
+            alt="Creative Rex Logo"
+            width="200"
+            class="w-36 md:w-48 lg:w-64"
+          />
+          <ul class="flex gap-5 justify-center items-center list-none pt-3">
+            <li>
+              <a
+                href="https://wa.me/+2348094226997"
+                target="_blank"
+                rel="noopener noreferrer"
+                ><img
+                  src="./assets/whatsapp-icon.svg"
+                  alt="Whatsapp Icon"
+                  class="w-7 h-7 md:w-8 md:h-8"
+              /></a>
+            </li>
+            <li>
+              <a
+                href="https://facebook.com/CreativeRexEmporium/"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="pb-1"
+              >
+                <img
+                  src="./assets/facebook-icon.png"
+                  alt="Facebook Icon"
+                  class="w-7 h-7 md:w-8 md:h-8"
+                />
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://www.instagram.com/creativerexemporium_/"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="pb-1"
+              >
+                <img
+                  src="./assets/instagram-icon.png"
+                  alt="instagram Icon"
+                  class="w-7 h-7 md:w-8 md:h-8"
+                />
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <h2
+            class="text-white font-open text-xl md:text-2xl font-semibold relative before:absolute before:-bottom-1 before:left-0 before:w-12 before:h-1 before:bg-logo before:rounded-sm"
+          >
+            Quick Links
+          </h2>
+          <ul class="pt-3 list-none">
+            <li class="hover:text-logo pt-2 pb-2"><a href="#hero">Home</a></li>
+            <li class="hover:text-logo pb-2"><a href="#about">About</a></li>
+            <li class="hover:text-logo pb-2">
+              <a href="#services">Services</a>
+            </li>
+            <li class="hover:text-logo pb-2"><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+        <div>
+          <h2
+            class="text-white font-open text-xl md:text-2xl font-semibold relative before:absolute before:-bottom-1 before:left-0 before:w-12 before:h-1 before:bg-logo before:rounded-sm"
+          >
+            Developers
+          </h2>
+          <ul class="pt-3">
+            <li class="font-semibold text-base pt-2">Web Developer:</li>
+            <li>Success Zion</li>
+            <div class="flex gap-3 pt-1.5">
+              <li>
+                <a
+                  href="https://wa.me/+2348122479317"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  ><img
+                    src="./assets/whatsapp-icon.svg"
+                    alt="Whatsapp Icon"
+                    class="w-7 h-7 md:w-8 md:h-8"
+                /></a>
+              </li>
+              <li>
+                <a
+                  href="https://github.com/Zeeohn"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  ><img
+                    src="./assets/github-icon.svg"
+                    alt="Github Icon"
+                    class="w-8 h-8 md:w-9 md:h-9"
+                /></a>
+              </li>
+            </div>
+            <li class="pt-3 font-semibold text-base">UI Designer:</li>
+            <li>Theo Fortune</li>
+            <div class="flex gap-3 pt-1.5 pb-1.5">
+              <li>
+                <a
+                  href="https://wa.me/+2349059605266"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  ><img
+                    src="./assets/whatsapp-icon.svg"
+                    alt="Whatsapp Icon"
+                    class="w-7 h-7 md:w-8 md:h-8"
+                /></a>
+              </li>
+              <li>
+                <a
+                  href="https://github.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  ><img
+                    src="./assets/github-icon.svg"
+                    alt="Github Icon"
+                    class="w-8 h-8 md:w-9 md:h-9"
+                /></a>
+              </li>
+            </div>
+          </ul>
+        </div>
+        <div class="relative">
+          <h2
+            class="text-white font-open text-xl md:text-2xl font-semibold relative before:absolute before:-bottom-1 before:left-0 before:w-12 before:h-1 before:bg-logo before:rounded-sm"
+          >
+            Contact Us
+          </h2>
+          <ul class="pt-3 relative">
+            <li id="list" class="gap-3 pt-2">
+              <span
+                ><img
+                  src="./assets/location-icon.png"
+                  alt="Location Icon"
+                  width="30"
+                  height="30"
+              /></span>
+              <span
+                >Royal Shekinah Hotel, <br />Along Ajase-Ipo Road, Ilorin,
+                <br />Kwara State, Nigeria.</span
+              >
+            </li>
+            <li id="list" class="gap-3">
+              <span
+                ><img
+                  src="./assets/call-icon.png"
+                  alt="Call Icon"
+                  width="30"
+                  height="30"
+              /></span>
+              <p>
+                <a href="tel:+2347062783910">+234 706 278 3910</a><br />
+                <a href="tel:+2349038054025">+234 903 805 4025</a>
+              </p>
+            </li>
+            <li id="list" class="gap-3">
+              <span
+                ><img
+                  src="./assets/mail-icon.png"
+                  alt="Email Icon"
+                  width="30"
+                  height="30"
+              /></span>
+              <p>
+                <a href="mailto:creativerexemporium@gmail.com"
+                  >creativerexemporium@gmail.com</a
+                >
+              </p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+    <div class="w-full bg-slate-900 text-white text-center py-1">
+      <p>Copyright &copy; 2022 Creative Rex Emporium. All rights reserved.</p>
+    </div>
+
+    <script type="module" src="/main.js"></script>
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+  </body>
+</html>
