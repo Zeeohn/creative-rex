@@ -23,7 +23,7 @@ Start with cloning this repo on your local machine:
 
 ```sh
 $ git clone https://github.com/Zeeohn/creative-rex.git
-$ cd PROJECT
+$ cd creative-rex
 ```
 
 To install and set up the library, run:
@@ -34,7 +34,7 @@ $ npm install
 
 ## Usage
 
-### Serving the app
+### Serving the site
 
 ```sh
 $ npm run dev
@@ -44,4 +44,9 @@ $ npm run dev
 
 ```sh
 $ ^c
+```
+
+### Building the site
+```sh
+$ vite build
 ```

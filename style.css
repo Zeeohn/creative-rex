@@ -184,3 +184,9 @@
     padding-bottom: 100px;
   }
 }
+
+@media (max-width: 414px) {
+  #about-text {
+    margin-top: 100px;
+  }
+}
